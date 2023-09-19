@@ -18,7 +18,7 @@ public class Prueba {
         {
             //Generando a Random number entre 0 y 100
             Random rand = new Random();
-            int targetNumber = rand.nextInt(100);
+            int targetNumber = rand.nextInt(99);
             int guess = -1;
             int tries = 0;
 
