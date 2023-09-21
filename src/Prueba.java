@@ -18,7 +18,7 @@ public class Prueba {
         {
             //Generando a Random number entre 0 y 100
             Random rand = new Random();
-            int targetNumber = rand.nextInt(99);
+            int targetNumber = rand.nextInt(100);
             int guess = -1;
             int tries = 0;
 
@@ -35,6 +35,7 @@ public class Prueba {
                     System.out.println("Total de intentos : " + tries);
                     System.out.println("Quieres comenzar otro juego? Yes or No: ");
                     play = reader.next().toLowerCase();
+
                 } else if (guess > targetNumber) {
                     System.out.println("Tu número es muy alto, intentalo de nuevo.");
                 } else {
